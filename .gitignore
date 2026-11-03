@@ -7,5 +7,10 @@ target/
 /data/admins.txt
 /data/orders.txt
 
+# Web app dependencies and build output
+/web/node_modules/
+/web/dist/
+/web/.vite/
+
 # Outdated duplicate source snapshot
 /ShopEase/

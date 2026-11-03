@@ -1,0 +1,818 @@
+[
+    {
+        "id":  1,
+        "name":  "Retro Bluetooth Speaker",
+        "category":  "Electronics",
+        "price":  100,
+        "stock":  42,
+        "image":  "https://i.pinimg.com/1200x/6d/73/a2/6d73a236b1e10e524872be0ba1c8d013.jpg"
+    },
+    {
+        "id":  2,
+        "name":  "Minimalist Desk Lamp",
+        "category":  "Electronics",
+        "price":  125,
+        "stock":  20,
+        "image":  "https://i.pinimg.com/736x/f5/d2/39/f5d23907af2fed99bd689a4de386ad63.jpg"
+    },
+    {
+        "id":  3,
+        "name":  "Wireless Charging Pad",
+        "category":  "Electronics",
+        "price":  725,
+        "stock":  51,
+        "image":  "https://i.pinimg.com/736x/99/5e/6f/995e6f0127945648f9f7e413d84294dc.jpg"
+    },
+    {
+        "id":  4,
+        "name":  "Noise Cancelling Headphones",
+        "category":  "Electronics",
+        "price":  295,
+        "stock":  84,
+        "image":  "https://i.pinimg.com/736x/b7/3d/55/b73d552e42ad89ff47292e45c562f008.jpg"
+    },
+    {
+        "id":  5,
+        "name":  "Digital Smart Clock",
+        "category":  "Electronics",
+        "price":  205,
+        "stock":  7,
+        "image":  "https://i.pinimg.com/1200x/67/32/7d/67327d7ee027a187e35467185ca28609.jpg"
+    },
+    {
+        "id":  6,
+        "name":  "Portable Power Bank",
+        "category":  "Electronics",
+        "price":  285,
+        "stock":  10,
+        "image":  "https://i.pinimg.com/1200x/94/5d/4d/945d4db5eb7159ba6e970ba3936673d5.jpg"
+    },
+    {
+        "id":  7,
+        "name":  "Instax Mini Camera",
+        "category":  "Electronics",
+        "price":  87,
+        "stock":  69,
+        "image":  "https://i.pinimg.com/1200x/54/e7/41/54e741336539193088909ff6acf454be.jpg"
+    },
+    {
+        "id":  8,
+        "name":  "Minimalist Mechanical Keyboard",
+        "category":  "Electronics",
+        "price":  98,
+        "stock":  13,
+        "image":  "https://i.pinimg.com/736x/f9/a8/b0/f9a8b029902966a6e671520ccf3b75df.jpg"
+    },
+    {
+        "id":  9,
+        "name":  "Wireless Mouse (Silent Click)",
+        "category":  "Electronics",
+        "price":  46,
+        "stock":  47,
+        "image":  "https://i.pinimg.com/736x/18/d6/a0/18d6a08cc8ec4cd1d7e79d62eb824f7d.jpg"
+    },
+    {
+        "id":  10,
+        "name":  "Tablet Stand (Adjustable)",
+        "category":  "Electronics",
+        "price":  96,
+        "stock":  75,
+        "image":  "https://i.pinimg.com/1200x/2d/4e/6e/2d4e6e3562e2e62b9bce397e49b551c2.jpg"
+    },
+    {
+        "id":  11,
+        "name":  "Smart Water Bottle",
+        "category":  "Electronics",
+        "price":  987,
+        "stock":  8,
+        "image":  "https://i.pinimg.com/1200x/69/55/5a/69555ae9ffa54394e57e47f749b51afe.jpg"
+    },
+    {
+        "id":  12,
+        "name":  "USB Cup Warmer",
+        "category":  "Electronics",
+        "price":  46,
+        "stock":  65,
+        "image":  "https://i.pinimg.com/1200x/bf/af/d8/bfafd8b46a817bd3ec0cbdc762726393.jpg"
+    },
+    {
+        "id":  13,
+        "name":  "Sunset Projection Lamp",
+        "category":  "Electronics",
+        "price":  46,
+        "stock":  28,
+        "image":  "https://i.pinimg.com/736x/c3/68/80/c36880db7db220116b5fe84f4f96914f.jpg"
+    },
+    {
+        "id":  14,
+        "name":  "Electric Milk Frother",
+        "category":  "Electronics",
+        "price":  86,
+        "stock":  5,
+        "image":  "https://i.pinimg.com/736x/95/38/8d/95388d951e104797a28a069689d8d0e4.jpg"
+    },
+    {
+        "id":  15,
+        "name":  "Portable Mini Humidifier",
+        "category":  "Electronics",
+        "price":  36,
+        "stock":  12,
+        "image":  "https://i.pinimg.com/1200x/5a/37/00/5a37008b266686e86174494a37f6e02e.jpg"
+    },
+    {
+        "id":  16,
+        "name":  "Phone Tripod (Rose Gold)",
+        "category":  "Electronics",
+        "price":  25,
+        "stock":  56,
+        "image":  "https://i.pinimg.com/736x/15/3e/34/153e3489a5483bbe40cfc108d7e8afaf.jpg"
+    },
+    {
+        "id":  17,
+        "name":  "Smart Night Light (Motion Sensor)",
+        "category":  "Electronics",
+        "price":  259,
+        "stock":  54,
+        "image":  "https://i.pinimg.com/736x/56/54/68/565468e4f991f6f82737b3165eeaa518.jpg"
+    },
+    {
+        "id":  18,
+        "name":  "Bluetooth Vinyl Record Player",
+        "category":  "Electronics",
+        "price":  55,
+        "stock":  9,
+        "image":  "https://i.pinimg.com/736x/3b/c8/2e/3bc82ef23b2f00401660b1c301a787ff.jpg"
+    },
+    {
+        "id":  19,
+        "name":  "Multi-Device Charging Station",
+        "category":  "Electronics",
+        "price":  75,
+        "stock":  31,
+        "image":  "https://i.pinimg.com/736x/6b/3a/34/6b3a34a1ec7d71978b00d4b926c0602c.jpg"
+    },
+    {
+        "id":  20,
+        "name":  "Clip-On LED Book Light",
+        "category":  "Electronics",
+        "price":  875,
+        "stock":  12,
+        "image":  "https://i.pinimg.com/736x/9f/7a/ee/9f7aeefab0387829bac6c422cf11f2a6.jpg"
+    },
+    {
+        "id":  21,
+        "name":  "Mini Label Printer",
+        "category":  "Electronics",
+        "price":  200,
+        "stock":  71,
+        "image":  "https://i.pinimg.com/736x/2f/85/c3/2f85c3fc9cb46fe9746d98d494bb3e85.jpg"
+    },
+    {
+        "id":  22,
+        "name":  "Digital Drawing Tablet",
+        "category":  "Electronics",
+        "price":  295,
+        "stock":  55,
+        "image":  "https://i.pinimg.com/236x/df/08/1e/df081e93dd33f7461ea3f11eb123d140.jpg"
+    },
+    {
+        "id":  23,
+        "name":  "Portable Lint Remover",
+        "category":  "Electronics",
+        "price":  205,
+        "stock":  8,
+        "image":  "https://i.pinimg.com/1200x/6d/1e/1c/6d1e1cea0b42bb75efa1f17f0ddb5591.jpg"
+    },
+    {
+        "id":  24,
+        "name":  "Gold Pink Smartwatch",
+        "category":  "Electronics",
+        "price":  425,
+        "stock":  73,
+        "image":  "https://i.pinimg.com/736x/5c/ee/c1/5ceec163dab0d8d750ebb95fe4239c19.jpg"
+    },
+    {
+        "id":  25,
+        "name":  "RGB Multifunctional",
+        "category":  "Electronics",
+        "price":  255,
+        "stock":  16,
+        "image":  "https://i.pinimg.com/736x/29/ce/e4/29cee4423e3a2afdfc9d2291986213bb.jpg"
+    },
+    {
+        "id":  26,
+        "name":  "Oversized Lavender Hoodie",
+        "category":  "Clothing",
+        "price":  55,
+        "stock":  29,
+        "image":  "https://i.pinimg.com/736x/1a/5e/33/1a5e335d0f4935a7d2af4b2b639c9882.jpg"
+    },
+    {
+        "id":  27,
+        "name":  "Organic Cotton Tote Bag",
+        "category":  "Clothing",
+        "price":  59,
+        "stock":  81,
+        "image":  "https://i.pinimg.com/736x/f9/18/38/f91838d64b0e36893922eb5950f46f35.jpg"
+    },
+    {
+        "id":  28,
+        "name":  "Silk Eye Mask",
+        "category":  "Clothing",
+        "price":  550,
+        "stock":  81,
+        "image":  "https://i.pinimg.com/736x/f9/2c/08/f92c088394e1ba3361f570c6d9a55273.jpg"
+    },
+    {
+        "id":  29,
+        "name":  "Cozy Knitted Blanke",
+        "category":  "Clothing",
+        "price":  575,
+        "stock":  75,
+        "image":  "https://i.pinimg.com/736x/b0/ae/c9/b0aec90e0131fd8e4cfa5b3da23944f7.jpg"
+    },
+    {
+        "id":  30,
+        "name":  "Lavender Scrunchie Set",
+        "category":  "Clothing",
+        "price":  85,
+        "stock":  8,
+        "image":  "https://i.pinimg.com/1200x/60/d4/9d/60d49d4519ea46240c76e80574d93c3a.jpg"
+    },
+    {
+        "id":  31,
+        "name":  "Minimalist Silver Necklace",
+        "category":  "Clothing",
+        "price":  995,
+        "stock":  74,
+        "image":  "https://i.pinimg.com/736x/55/d0/41/55d0418e6b349920e414d28035e0d365.jpg"
+    },
+    {
+        "id":  32,
+        "name":  "Knitted Beanie",
+        "category":  "Clothing",
+        "price":  87,
+        "stock":  75,
+        "image":  "https://i.pinimg.com/1200x/a7/8b/7b/a78b7b0c255ed9c4cf00ef2320725aa0.jpg"
+    },
+    {
+        "id":  33,
+        "name":  "Fluffy Home Slippers",
+        "category":  "Clothing",
+        "price":  100,
+        "stock":  51,
+        "image":  "https://i.pinimg.com/736x/5e/9a/de/5e9ade944aef619ee032a9c4c0ba6766.jpg"
+    },
+    {
+        "id":  34,
+        "name":  "Canvas Backpack",
+        "category":  "Clothing",
+        "price":  400,
+        "stock":  7,
+        "image":  "https://i.pinimg.com/736x/a5/8a/df/a58adfb8dda08a9858d5cf521ad42870.jpg"
+    },
+    {
+        "id":  35,
+        "name":  "Oversized White Shirt",
+        "category":  "Clothing",
+        "price":  26,
+        "stock":  29,
+        "image":  "https://i.pinimg.com/1200x/c5/22/96/c522961ccb0c8b7bc8df0f348b3c6b29.jpg"
+    },
+    {
+        "id":  36,
+        "name":  "Aesthetic Phone Case",
+        "category":  "Clothing",
+        "price":  78,
+        "stock":  4,
+        "image":  "https://i.pinimg.com/736x/79/c9/c7/79c9c7939fe5fbc723e243386e45cbcd.jpg"
+    },
+    {
+        "id":  37,
+        "name":  "Wide Brim Straw Hat",
+        "category":  "Clothing",
+        "price":  85,
+        "stock":  72,
+        "image":  "https://i.pinimg.com/736x/0a/57/4a/0a574a7c43ef0f2754e93569861d50f3.jpg"
+    },
+    {
+        "id":  38,
+        "name":  "Dainty Gold Ring",
+        "category":  "Clothing",
+        "price":  90,
+        "stock":  17,
+        "image":  "https://i.pinimg.com/736x/51/ac/7f/51ac7f99d7110fa4f1de43a3e86fa336.jpg"
+    },
+    {
+        "id":  39,
+        "name":  "Linen Scarf (Light Grey)",
+        "category":  "Clothing",
+        "price":  500,
+        "stock":  38,
+        "image":  "https://i.pinimg.com/1200x/71/d5/33/71d533de803c94d18608146cda8bbcd9.jpg"
+    },
+    {
+        "id":  40,
+        "name":  "Embroidered Socks",
+        "category":  "Clothing",
+        "price":  500,
+        "stock":  54,
+        "image":  "https://i.pinimg.com/736x/40/0f/e8/400fe85c176ca46dedbedb3273de10f6.jpg"
+    },
+    {
+        "id":  41,
+        "name":  "Clear Lens Glasses",
+        "category":  "Clothing",
+        "price":  489,
+        "stock":  19,
+        "image":  "https://i.pinimg.com/736x/e3/5f/ba/e35fbacac8fe6e9fa87144d3862268ba.jpg"
+    },
+    {
+        "id":  42,
+        "name":  "Small Leather Wallet",
+        "category":  "Clothing",
+        "price":  95,
+        "stock":  70,
+        "image":  "https://i.pinimg.com/736x/36/0c/bb/360cbb7da1aee92c9355a58226de74b7.jpg"
+    },
+    {
+        "id":  43,
+        "name":  "Quilted Makeup Bag",
+        "category":  "Clothing",
+        "price":  85,
+        "stock":  16,
+        "image":  "https://i.pinimg.com/1200x/60/a3/5a/60a35a6afe3f656c05609b564d41263b.jpg"
+    },
+    {
+        "id":  44,
+        "name":  "High-Waisted Linen Trousers",
+        "category":  "Clothing",
+        "price":  28,
+        "stock":  66,
+        "image":  "https://i.pinimg.com/736x/d4/8c/5c/d48c5c1dd666965e5045e96983e06fa4.jpg"
+    },
+    {
+        "id":  45,
+        "name":  "Silk Scarf",
+        "category":  "Clothing",
+        "price":  86,
+        "stock":  40,
+        "image":  "https://i.pinimg.com/1200x/24/c6/6a/24c66af890600f2ad61ac7bcf52a1413.jpg"
+    },
+    {
+        "id":  46,
+        "name":  "Minimalist Baseball Cap",
+        "category":  "Clothing",
+        "price":  57,
+        "stock":  72,
+        "image":  "https://i.pinimg.com/736x/39/6e/1f/396e1faea841a460297bdfcc753d7923.jpg"
+    },
+    {
+        "id":  47,
+        "name":  "Fleece Sweatpants",
+        "category":  "Clothing",
+        "price":  88,
+        "stock":  88,
+        "image":  "https://i.pinimg.com/736x/00/1e/5e/001e5e5c120133b9586e04c350506f67.jpg"
+    },
+    {
+        "id":  48,
+        "name":  "Hair Claw Clip",
+        "category":  "Clothing",
+        "price":  289,
+        "stock":  24,
+        "image":  "https://i.pinimg.com/736x/52/c4/ce/52c4ce6b65154397ad138495fe5d261a.jpg"
+    },
+    {
+        "id":  49,
+        "name":  "Pearl Stud Earrings",
+        "category":  "Clothing",
+        "price":  75,
+        "stock":  14,
+        "image":  "https://i.pinimg.com/736x/58/32/16/583216c3206979813b71f56781702a4d.jpg"
+    },
+    {
+        "id":  50,
+        "name":  "Round Sunglasses",
+        "category":  "Clothing",
+        "price":  55,
+        "stock":  75,
+        "image":  "https://i.pinimg.com/736x/47/02/a9/4702a951eb40eb5894778db08e5cb304.jpg"
+    },
+    {
+        "id":  51,
+        "name":  "Lavender Dried Bouquet",
+        "category":  "Decor",
+        "price":  400,
+        "stock":  74,
+        "image":  "https://i.pinimg.com/1200x/4f/7b/48/4f7b48e1e7cf6749056eda3a3d398631.jpg"
+    },
+    {
+        "id":  52,
+        "name":  "Scented Lavender Candle",
+        "category":  "Decor",
+        "price":  200,
+        "stock":  82,
+        "image":  "https://i.pinimg.com/1200x/af/a0/45/afa04532bfe2a3aaa64379dab45af70a.jpg"
+    },
+    {
+        "id":  53,
+        "name":  "Ceramic Vase",
+        "category":  "Decor",
+        "price":  300,
+        "stock":  25,
+        "image":  "https://i.pinimg.com/1200x/8e/cf/80/8ecf8010f929619d7c06db8f1aa4e93d.jpg"
+    },
+    {
+        "id":  54,
+        "name":  "Essential Oil Diffuser",
+        "category":  "Decor",
+        "price":  100,
+        "stock":  48,
+        "image":  "https://i.pinimg.com/736x/ee/b5/a1/eeb5a133e2ffdf7b5a5c85660ed56b18.jpg"
+    },
+    {
+        "id":  55,
+        "name":  "Handmade Macrame Wall Hanging",
+        "category":  "Decor",
+        "price":  350,
+        "stock":  13,
+        "image":  "https://i.pinimg.com/736x/4e/75/27/4e75271212d0d2f0770274891b072d17.jpg"
+    },
+    {
+        "id":  56,
+        "name":  "Abstract Minimalist Painting",
+        "category":  "Decor",
+        "price":  150,
+        "stock":  71,
+        "image":  "https://i.pinimg.com/1200x/6e/24/c4/6e24c464a8a01a1020fa602e64a5f3d0.jpg"
+    },
+    {
+        "id":  57,
+        "name":  "Small Indoor Succulent",
+        "category":  "Decor",
+        "price":  400,
+        "stock":  92,
+        "image":  "https://i.pinimg.com/736x/d9/04/0b/d9040bad4acbba3ff59575a4d5345ee3.jpg"
+    },
+    {
+        "id":  58,
+        "name":  "Decorative Mirror (Gold Frame)",
+        "category":  "Decor",
+        "price":  250,
+        "stock":  9,
+        "image":  "https://i.pinimg.com/1200x/e5/2a/d4/e52ad4c6c250219867322e5fc04fc9de.jpg"
+    },
+    {
+        "id":  59,
+        "name":  "Glass Terrarium",
+        "category":  "Decor",
+        "price":  150,
+        "stock":  73,
+        "image":  "https://i.pinimg.com/1200x/5d/89/d6/5d89d697e63a2a625b44530e60dedcc2.jpg"
+    },
+    {
+        "id":  60,
+        "name":  "Ceramic Incense Holder",
+        "category":  "Decor",
+        "price":  190,
+        "stock":  8,
+        "image":  "https://i.pinimg.com/736x/6c/cf/6f/6ccf6fa3f0d5b20ad6a70af3b70b8fa6.jpg"
+    },
+    {
+        "id":  61,
+        "name":  "lavender essential oil",
+        "category":  "Decor",
+        "price":  150,
+        "stock":  80,
+        "image":  "https://i.pinimg.com/1200x/a7/1f/05/a71f05a5c9994f3194032fe268954ec2.jpg"
+    },
+    {
+        "id":  62,
+        "name":  "Woven Seagrass Basket",
+        "category":  "Decor",
+        "price":  200,
+        "stock":  27,
+        "image":  "https://i.pinimg.com/1200x/5e/28/20/5e28204f8c6eec5a52f91ac99562e794.jpg"
+    },
+    {
+        "id":  63,
+        "name":  "Marble Coaster Set",
+        "category":  "Decor",
+        "price":  200,
+        "stock":  64,
+        "image":  "https://i.pinimg.com/736x/47/eb/46/47eb464e9c064bba1bdeb10b3d63b98e.jpg"
+    },
+    {
+        "id":  64,
+        "name":  "Floating Wooden Shelves",
+        "category":  "Decor",
+        "price":  95,
+        "stock":  88,
+        "image":  "https://i.pinimg.com/736x/52/69/1b/52691b333793cfb83e308d068f42b640.jpg"
+    },
+    {
+        "id":  65,
+        "name":  "Aesthetic Candle Match Jar",
+        "category":  "Decor",
+        "price":  69,
+        "stock":  69,
+        "image":  "https://i.pinimg.com/736x/67/4d/0c/674d0cf8acf166dee10d62f8b083bef3.jpg"
+    },
+    {
+        "id":  66,
+        "name":  "Fairy Lights",
+        "category":  "Decor",
+        "price":  450,
+        "stock":  55,
+        "image":  "https://i.pinimg.com/1200x/8d/b9/3e/8db93ec02b2d684cebe6cf624b89b9ce.jpg"
+    },
+    {
+        "id":  67,
+        "name":  "Metal Photo Grid",
+        "category":  "Decor",
+        "price":  350,
+        "stock":  100,
+        "image":  "https://i.pinimg.com/736x/eb/79/be/eb79be2f25c3a9a577fda98721331ece.jpg"
+    },
+    {
+        "id":  68,
+        "name":  "Lavender Scented Bath Salts",
+        "category":  "Decor",
+        "price":  50,
+        "stock":  41,
+        "image":  "https://i.pinimg.com/1200x/fd/95/db/fd95dba8884c21f502c128b2f6e0651a.jpg"
+    },
+    {
+        "id":  69,
+        "name":  "Decorative Hourglass",
+        "category":  "Decor",
+        "price":  195,
+        "stock":  60,
+        "image":  "https://i.pinimg.com/1200x/2c/b1/b2/2cb1b2fd25096d3f1a47c63805ba5e3a.jpg"
+    },
+    {
+        "id":  70,
+        "name":  "Pressed Flower Frame",
+        "category":  "Decor",
+        "price":  265,
+        "stock":  75,
+        "image":  "https://i.pinimg.com/736x/fb/26/c1/fb26c1f0eca3681e91b2e725035dc4ba.jpg"
+    },
+    {
+        "id":  71,
+        "name":  "Donut Ceramic Vase Set",
+        "category":  "Decor",
+        "price":  155,
+        "stock":  59,
+        "image":  "https://i.pinimg.com/1200x/24/5f/8d/245f8db92cae7ce5e25e6ba67cdb6a08.jpg"
+    },
+    {
+        "id":  72,
+        "name":  "Room Decor",
+        "category":  "Decor",
+        "price":  1000,
+        "stock":  47,
+        "image":  "https://i.pinimg.com/736x/fe/22/44/fe2244cbd217b69376a89b8adc7e6861.jpg"
+    },
+    {
+        "id":  73,
+        "name":  "Boho Corner Glow: Lamp \u0026 Vase Scene",
+        "category":  "Decor",
+        "price":  300,
+        "stock":  39,
+        "image":  "https://i.pinimg.com/1200x/96/b7/6f/96b76f46121bcdc784c1ce2f0839edf8.jpg"
+    },
+    {
+        "id":  74,
+        "name":  "Cute Crochet Art",
+        "category":  "Decor",
+        "price":  158,
+        "stock":  32,
+        "image":  "https://i.pinimg.com/736x/c3/9d/8d/c39d8dcb01eb4499d89fea063b007463.jpg"
+    },
+    {
+        "id":  75,
+        "name":  "Cute Duck Night Light",
+        "category":  "Decor",
+        "price":  265,
+        "stock":  24,
+        "image":  "https://i.pinimg.com/736x/20/f4/ab/20f4abe5d34464bc1f85a9f963209379.jpg"
+    },
+    {
+        "id":  76,
+        "name":  "Aesthetic Hardcover Journal",
+        "category":  "Books",
+        "price":  300,
+        "stock":  90,
+        "image":  "https://i.pinimg.com/1200x/61/2d/bb/612dbba7abfa8bc95ed96af218205dc6.jpg"
+    },
+    {
+        "id":  77,
+        "name":  "Self-Care \u0026 Mindfulness Book",
+        "category":  "Books",
+        "price":  600,
+        "stock":  100,
+        "image":  "https://i.pinimg.com/736x/65/70/16/657016e0fca7b832c77333f2f143bd2a.jpg"
+    },
+    {
+        "id":  78,
+        "name":  "Pastel Highlighter Set",
+        "category":  "Books",
+        "price":  762,
+        "stock":  32,
+        "image":  "https://i.pinimg.com/736x/fa/7b/a1/fa7ba1b7d1b906cd569d6b576f183699.jpg"
+    },
+    {
+        "id":  79,
+        "name":  "Washi Tape Set (Floral)",
+        "category":  "Books",
+        "price":  72,
+        "stock":  11,
+        "image":  "https://i.pinimg.com/736x/01/2e/57/012e5793d21753cbfc5c56ed85fd8b70.jpg"
+    },
+    {
+        "id":  80,
+        "name":  "Daily Planner",
+        "category":  "Books",
+        "price":  83,
+        "stock":  74,
+        "image":  "https://i.pinimg.com/1200x/01/ff/66/01ff662ae0e9f06599bd422a1bcce688.jpg"
+    },
+    {
+        "id":  81,
+        "name":  "Fountain Pen",
+        "category":  "Books",
+        "price":  69,
+        "stock":  39,
+        "image":  "https://i.pinimg.com/736x/78/96/08/789608d10683508f5091dd10b8440022.jpg"
+    },
+    {
+        "id":  82,
+        "name":  "Bookmark",
+        "category":  "Books",
+        "price":  12,
+        "stock":  68,
+        "image":  "https://i.pinimg.com/1200x/21/5d/96/215d9613dbca5dcf6f97cb7fabc04498.jpg"
+    },
+    {
+        "id":  83,
+        "name":  "Desk Organizer",
+        "category":  "Books",
+        "price":  20,
+        "stock":  64,
+        "image":  "https://i.pinimg.com/736x/35/39/67/353967517dc11a12e7ff2eb1392eee20.jpg"
+    },
+    {
+        "id":  84,
+        "name":  "Motivational Quote Cards",
+        "category":  "Books",
+        "price":  29,
+        "stock":  44,
+        "image":  "https://i.pinimg.com/1200x/53/ba/53/53ba53f7be4eacebf8818ba131ef53f8.jpg"
+    },
+    {
+        "id":  85,
+        "name":  "Sticky Note",
+        "category":  "Books",
+        "price":  75,
+        "stock":  94,
+        "image":  "https://i.pinimg.com/1200x/d2/27/93/d2279384a6ed840402d41d4e11ef3981.jpg"
+    },
+    {
+        "id":  86,
+        "name":  "Reading Journal",
+        "category":  "Books",
+        "price":  182,
+        "stock":  58,
+        "image":  "https://i.pinimg.com/1200x/d2/e1/31/d2e1316c3a3d5db686622030861c9c84.jpg"
+    },
+    {
+        "id":  87,
+        "name":  "Aesthetic Folder Organizer",
+        "category":  "Books",
+        "price":  129,
+        "stock":  37,
+        "image":  "https://i.pinimg.com/1200x/1f/8a/4b/1f8a4b6aa35c0adec78524300d88fa9c.jpg"
+    },
+    {
+        "id":  88,
+        "name":  "Set of Art Postcards",
+        "category":  "Books",
+        "price":  125,
+        "stock":  78,
+        "image":  "https://i.pinimg.com/1200x/64/af/25/64af25a0023a5195af1b418c571aca98.jpg"
+    },
+    {
+        "id":  89,
+        "name":  "Calligraphy Starter Kit",
+        "category":  "Books",
+        "price":  83,
+        "stock":  10,
+        "image":  "https://i.pinimg.com/1200x/75/2b/c9/752bc98146ce1422c77a5fa9dafd916f.jpg"
+    },
+    {
+        "id":  90,
+        "name":  "Leather Pen Case",
+        "category":  "Books",
+        "price":  83,
+        "stock":  16,
+        "image":  "https://i.pinimg.com/1200x/ea/61/cc/ea61ccb5e5b4986c7c92856f62e37d28.jpg"
+    },
+    {
+        "id":  91,
+        "name":  "Desk Mat",
+        "category":  "Books",
+        "price":  92,
+        "stock":  66,
+        "image":  "https://i.pinimg.com/1200x/66/c2/99/66c2991d02f879079ee56676e991ffa1.jpg"
+    },
+    {
+        "id":  92,
+        "name":  "Poetry Book",
+        "category":  "Books",
+        "price":  182,
+        "stock":  54,
+        "image":  "https://i.pinimg.com/736x/2e/2a/db/2e2adb1aae83ba8f4fea5111ae5c8be6.jpg"
+    },
+    {
+        "id":  93,
+        "name":  "Watercolor Paint Set",
+        "category":  "Books",
+        "price":  121,
+        "stock":  22,
+        "image":  "https://i.pinimg.com/736x/af/61/bb/af61bb1490ef510b43b6ffd13a0d635e.jpg"
+    },
+    {
+        "id":  94,
+        "name":  "Sketchbook",
+        "category":  "Books",
+        "price":  100,
+        "stock":  97,
+        "image":  "https://i.pinimg.com/1200x/57/79/68/577968b0a58c971ce51f83958fd9a09f.jpg"
+    },
+    {
+        "id":  95,
+        "name":  "Correction Tape",
+        "category":  "Books",
+        "price":  200,
+        "stock":  43,
+        "image":  "https://i.pinimg.com/1200x/46/13/17/461317f7b0a3a90368fa6500a5903750.jpg"
+    },
+    {
+        "id":  96,
+        "name":  "Stamp Set",
+        "category":  "Books",
+        "price":  300,
+        "stock":  20,
+        "image":  "https://i.pinimg.com/1200x/3b/46/8b/3b468bc54f6bc40f6436ca1587ea7fc6.jpg"
+    },
+    {
+        "id":  97,
+        "name":  "Clip Clipboard",
+        "category":  "Books",
+        "price":  420,
+        "stock":  63,
+        "image":  "https://i.pinimg.com/1200x/fe/50/ad/fe50adcc72551c99c81efbef350035fc.jpg"
+    },
+    {
+        "id":  98,
+        "name":  "Book Stand",
+        "category":  "Books",
+        "price":  500,
+        "stock":  54,
+        "image":  "https://i.pinimg.com/736x/72/db/bd/72dbbda8d69e59124815e98fc8c31635.jpg"
+    },
+    {
+        "id":  99,
+        "name":  "Sticker Pack",
+        "category":  "Books",
+        "price":  650,
+        "stock":  6,
+        "image":  "https://i.pinimg.com/736x/19/4e/db/194edb6b218e96cbc4dd406949d336aa.jpg"
+    },
+    {
+        "id":  100,
+        "name":  "Magnifying Glass",
+        "category":  "Books",
+        "price":  770,
+        "stock":  86,
+        "image":  "https://i.pinimg.com/736x/04/09/87/04098725a16e058575b5a4668f033f0d.jpg"
+    },
+    {
+        "id":  101,
+        "name":  "supra mka 5",
+        "category":  "Electronics",
+        "price":  200000,
+        "stock":  0,
+        "image":  "https://i.pinimg.com/736x/35/2b/b7/352bb7ea8b54f590086294de23dee274.jpg"
+    },
+    {
+        "id":  102,
+        "name":  "iphone 17",
+        "category":  "Electronics",
+        "price":  100000,
+        "stock":  0,
+        "image":  "https://i.pinimg.com/736x/7d/17/56/7d17563c30bc8ca7a7357e46ec68466b.jpg"
+    }
+]
