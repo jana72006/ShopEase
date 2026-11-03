@@ -1,0 +1,11 @@
+.idea/
+out/
+target/
+*.iml
+
+# Local admin accounts and customer order history
+/data/admins.txt
+/data/orders.txt
+
+# Outdated duplicate source snapshot
+/ShopEase/

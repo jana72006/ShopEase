@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<!-- السطر اللي تحت ده هو اللي هيحل مشكلة Cannot resolve symbol TextFlow -->
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" spacing="25" styleClass="products-page-bg" xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.lavenderstore.AboutController">
+
+    <padding>
+        <Insets top="40" right="60" bottom="40" left="60"/>
+    </padding>
+
+    <Label text="About Bye Bye Money Store"
+           style="-fx-font-size: 36px; -fx-font-weight: bold; -fx-text-fill: #5D4D7A;"/>
+
+    <VBox alignment="CENTER" spacing="10">
+        <Label text="Welcome to Bye Bye Money Store ♡" style="-fx-font-size: 18px; -fx-text-fill: #5D4D7A;"/>
+        <Label text="Where your bank account comes to cry, and your room comes to fly." style="-fx-font-size: 16px; -fx-text-fill: #5D4D7A;"/>
+        <Label text="We specialize in those 'I don't need it, but I definitely need it' items." style="-fx-font-size: 16px; -fx-text-fill: #5D4D7A;"/>
+        <Label text="Go ahead, treat yourself—you deserve it! 💸" style="-fx-font-size: 16px; -fx-text-fill: #5D4D7A;"/>
+    </VBox>
+
+    <Label text="--- OUR HISTORY ---" style="-fx-text-fill: #7A6A9C; -fx-font-weight: bold;"/>
+
+    <!-- تم تحديد العرض بـ 800 عشان الكلام يلم في النص -->
+    <Label text="Founded in 2026 by a group of ITCS students who realized that solving physics problems is hard, but online shopping is easy. What started as a small project to save our own aesthetic vibes turned into a sanctuary for everyone who loves lavender and hates having a full wallet. We've been making people 'broke but happy' since day one."
+           wrapText="true"
+           textAlignment="CENTER"
+           maxWidth="800"
+           style="-fx-font-size: 16px; -fx-text-fill: #5D4D7A; -fx-line-spacing: 5;"/>
+
+    <Button fx:id="backToShopBtn" text="← Back to Home" onAction="#onBackToHomeClick"
+            style="-fx-background-color: #5D4D7A; -fx-text-fill: white; -fx-background-radius: 25; -fx-padding: 10 30; -fx-font-weight: bold; -fx-cursor: hand;"/>
+
+</VBox>

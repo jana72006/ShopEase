@@ -1,0 +1,195 @@
+/* --- 1. إعدادات الصفحة العامة والعناصر الأساسية --- */
+
+.root {
+    -fx-background-color: #FAF9F6; /* لون الصفحة الكريمي الهادي */
+}
+
+/* الخلفية بتدرج لوني شيك لصفحة المنتجات */
+.products-page-bg {
+    -fx-background-color: linear-gradient(to bottom right, #FAF9F6, #F2F0F7) !important;
+}
+
+/* إخفاء أي خلفيات بيضاء رخمة في الـ ScrollPane */
+.scroll-pane {
+    -fx-background-color: transparent;
+    -fx-background: transparent;
+    -fx-border-color: transparent;
+}
+
+.scroll-pane .viewport {
+    -fx-background-color: transparent;
+}
+
+/* الطبقة الشفافة (Overlay) فوق صورة الهوم */
+.overlay {
+    -fx-background-color: rgba(0, 0, 0, 0.7); /* 70% ضلمة */
+}
+
+/* --- 2. ستايلات النصوص واللوجو --- */
+
+.store-logo {
+    -fx-font-family: "Georgia";
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.hero-title {
+    -fx-font-family: "System"; /* أو الخط اللي تحبيه */
+    -fx-font-size: 42px;
+    -fx-text-fill: white;
+    -fx-text-alignment: center;
+}
+
+.hero-subtitle {
+    -fx-font-family: "Georgia";
+    -fx-font-size: 20px;
+    -fx-text-fill: #FAF9F6;
+    -fx-font-style: italic;
+}
+
+/* --- 3. الأيقونات والـ Navigation --- */
+
+.nav-icon {
+    -fx-cursor: hand; /* الماوس يقلب صباع */
+    -fx-transition: 0.3s;
+}
+
+.nav-icon:hover {
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+    -fx-effect: dropshadow(three-pass-box, rgba(93, 77, 122, 0.3), 10, 0, 0, 0);
+}
+
+/* --- 4. ستايلات الزراير (Buttons) --- */
+
+/* زرار Shop Now في الهوم */
+.button-creamy {
+    -fx-background-color: #FAF9F6;
+    -fx-text-fill: #5D4D7A;
+    -fx-font-weight: bold;
+    -fx-background-radius: 25px;
+    -fx-padding: 12 30;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.4), 10, 0, 0, 5);
+    -fx-cursor: hand;
+}
+
+.button-creamy:hover {
+    -fx-background-color: #F3EFE0;
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}
+
+/* زرار السيرش الـ Chic (فوق) */
+.button-search-chic {
+    -fx-background-color: #5D4D7A;
+    -fx-text-fill: white;
+    -fx-background-radius: 20;
+    -fx-padding: 10 25;
+    -fx-cursor: hand;
+    -fx-font-weight: bold;
+    -fx-transition: 0.3s;
+}
+
+.button-search-chic:hover {
+    -fx-background-color: #4a3d62;
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}
+
+/* زرار الـ Back (تحت يمين) */
+.button-back {
+    -fx-background-color: transparent;
+    -fx-text-fill: #777777;
+    -fx-font-size: 14px;
+    -fx-cursor: hand;
+    -fx-border-color: #777777;
+    -fx-border-radius: 20;
+    -fx-padding: 8 20;
+    -fx-transition: 0.3s;
+}
+
+.button-back:hover {
+    -fx-text-fill: #5D4D7A;
+    -fx-border-color: #5D4D7A;
+    -fx-background-color: rgba(93, 77, 122, 0.05);
+}
+
+/* --- 5. كروت المنتجات (Product Cards) --- */
+
+.product-card {
+    -fx-background-color: white;
+    -fx-background-radius: 15;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 10, 0, 0, 5);
+    -fx-padding: 15;
+    -fx-alignment: center;
+    -fx-transition: 0.3s;
+}
+
+.product-card:hover {
+    -fx-translate-y: -8;
+    -fx-effect: dropshadow(three-pass-box, rgba(93, 77, 122, 0.2), 20, 0, 0, 10);
+    -fx-cursor: hand;
+}
+
+.not-found-label {
+    -fx-text-fill: #5D4D7A;
+    -fx-font-size: 20px;
+    -fx-font-style: italic;
+    -fx-padding: 50;
+}
+
+.dramatic-popup {
+    -fx-background-color: #F8F5FF;
+    -fx-border-color: #5D4D7A;
+    -fx-border-width: 3;
+    /* ده السطر اللي بيعمل التأثير المشرشر باستخدام تقطيع الحدود */
+    -fx-border-style: segments(10, 5, 10, 5) line-cap round;
+    -fx-padding: 30;
+    -fx-alignment: center;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+}
+
+.dramatic-text-main {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #5D4D7A;
+    -fx-font-family: "Georgia";
+}
+
+.dramatic-text-sub {
+    -fx-font-size: 16px;
+    -fx-text-fill: #777777;
+    -fx-font-style: italic;
+}
+
+/* ستايل زرار السيرش العادي */
+.search-button {
+    -fx-background-color: #5D4D7A;
+    -fx-text-fill: white;
+    -fx-background-radius: 15;
+    -fx-transition: 0.3s; /* عشان الحركة تكون ناعمة */
+}
+
+/* التغيير اللي بيحصل لما الماوس ييجي عليه */
+.search-button:hover {
+    -fx-background-color: #7A6A9C; /* لون أفتح شوية */
+    -fx-scale-x: 1.1; /* يكبر بالعرض */
+    -fx-scale-y: 1.1; /* يكبر بالطول */
+    -fx-cursor: hand;
+}
+
+.nav-button-home {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-transition: 0.2s;
+}
+
+.nav-button-home:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 15, 0, 0, 0);
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+    -fx-cursor: hand;
+}

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox spacing="20" styleClass="products-page-bg" xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.lavenderstore.ProductsController">
+
+    <padding>
+        <Insets top="20" right="20" bottom="20" left="20"/>
+    </padding>
+
+    <HBox spacing="15" alignment="CENTER_LEFT">
+        <!-- زرار الباك بالـ ID الجديد -->
+        <Button fx:id="backBtn" text="← Back" onAction="#onBackToHomeClick"
+                style="-fx-background-color: transparent; -fx-text-fill: #5D4D7A; -fx-font-weight: bold; -fx-cursor: hand; -fx-font-size: 16px;"/>
+
+        <Region HBox.hgrow="ALWAYS" />
+
+        <!-- خانة البحث مع الزرار المتظبط -->
+        <HBox spacing="10" alignment="CENTER">
+            <TextField fx:id="searchBar" promptText="Search with aesthetic vibes..."
+                       style="-fx-background-radius: 20; -fx-pref-width: 350; -fx-padding: 8 15;"/>
+            <Button text="Search" onAction="#onSearchClick" styleClass="search-button"
+                    style="-fx-background-color: #5D4D7A; -fx-text-fill: white; -fx-background-radius: 15; -fx-padding: 8 20; -fx-cursor: hand;"/>
+        </HBox>
+
+        <Region HBox.hgrow="ALWAYS" />
+
+        <!-- زرار الكارت تم تحويله لـ Button وتغيير الـ ID لـ cartBtn -->
+        <Button fx:id="cartBtn" text="🛒 Cart" onAction="#handleCartAction"
+                style="-fx-background-color: #5D4D7A; -fx-background-radius: 25; -fx-text-fill: white; -fx-cursor: hand; -fx-padding: 10 25;"/>
+
+        <ComboBox fx:id="categoryComboBox" onAction="#onCategoryChange"
+                  prefWidth="150" promptText="All Categories"
+                  style="-fx-background-radius: 20;"/>
+    </HBox>
+
+    <ScrollPane fitToWidth="true" style="-fx-background-color: transparent; -fx-background: transparent;" VBox.vgrow="ALWAYS">
+        <GridPane fx:id="productsGrid" hgap="25" vgap="25" alignment="CENTER">
+            <padding>
+                <Insets top="10" right="10" bottom="10" left="10"/>
+            </padding>
+            <columnConstraints>
+                <ColumnConstraints percentWidth="20" />
+                <ColumnConstraints percentWidth="20" />
+                <ColumnConstraints percentWidth="20" />
+                <ColumnConstraints percentWidth="20" />
+                <ColumnConstraints percentWidth="20" />
+            </columnConstraints>
+        </GridPane>
+    </ScrollPane>
+
+</VBox>

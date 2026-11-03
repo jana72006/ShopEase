@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<StackPane xmlns="http://javafx.com/javafx"
+           xmlns:fx="http://javafx.com/fxml"
+           fx:controller="com.example.lavenderstore.HelloController"
+           prefWidth="1200" prefHeight="800">
+
+    <ImageView fx:id="mainImage" pickOnBounds="true" preserveRatio="true">
+        <Image url="@main-bg.jpg" />
+    </ImageView>
+
+    <Region fx:id="overlay" styleClass="overlay" />
+
+    <VBox alignment="TOP_CENTER" spacing="0">
+
+        <HBox alignment="CENTER" spacing="30" styleClass="nav-bar" prefHeight="80">
+            <padding><Insets left="50" right="50" /></padding>
+            <Label text="BYE BYE MONEY" styleClass="store-logo" />
+            <Region HBox.hgrow="ALWAYS" />
+
+            <Button text="ⓘ" onAction="#onAboutClick" styleClass="nav-button-home"
+                    style="-fx-font-size: 18px; -fx-background-color: transparent; -fx-text-fill: white;"/>
+
+            <Button text="🛒" onAction="#onCartClick" styleClass="nav-button-home"
+                    style="-fx-font-size: 18px; -fx-background-color: transparent; -fx-text-fill: white;"/>
+
+            <!-- زرار Admin — بيفتح AdminLoginDialog -->
+            <Button text="⚙ Admin" onAction="#onAdminClick"
+                    style="-fx-font-size: 13px; -fx-background-color: #e94560;
+                           -fx-text-fill: white; -fx-background-radius: 15;
+                           -fx-padding: 6 14; -fx-cursor: hand; -fx-font-weight: bold;"/>
+        </HBox>
+
+        <VBox alignment="CENTER" spacing="20" VBox.vgrow="ALWAYS">
+            <Label text="Welcome to Bye Bye Money Store ♡"
+                   styleClass="hero-title" wrapText="true" maxWidth="1000"
+                   textAlignment="CENTER" alignment="CENTER" />
+            <Label text="One item? That's adorable!!"
+                   styleClass="hero-subtitle" />
+            <Region prefHeight="30" />
+            <Button text="SHOP NOW" styleClass="button-creamy" onAction="#onShopNowClick" />
+        </VBox>
+
+        <HBox alignment="CENTER" spacing="0"
+              style="-fx-background-color: transparent; -fx-padding: 40 60 20 60;">
+            <VBox alignment="CENTER_LEFT">
+                <Label text="© 2026 Bye Bye Money"
+                       style="-fx-font-weight: bold; -fx-text-fill: #777777; -fx-font-size: 14px;"/>
+                <Label text="All Rights Reserved."
+                       style="-fx-font-size: 11px; -fx-text-fill: #777777;"/>
+            </VBox>
+            <Pane HBox.hgrow="ALWAYS" />
+            <VBox alignment="CENTER" spacing="10">
+                <Label text="Follow Us" style="-fx-font-weight: bold;-fx-text-fill: #777777;"/>
+                <HBox spacing="20" alignment="CENTER">
+                    <ImageView fx:id="fbIcon" fitWidth="30" preserveRatio="true"
+                               styleClass="nav-icon" onMouseClicked="#onFBClick">
+                        <Image url="@fb.png" />
+                    </ImageView>
+                    <ImageView fx:id="instaIcon" fitWidth="25" preserveRatio="true"
+                               styleClass="nav-icon" onMouseClicked="#onInstaClick">
+                        <Image url="@insta.png" />
+                    </ImageView>
+                </HBox>
+            </VBox>
+            <Pane HBox.hgrow="ALWAYS" />
+            <VBox alignment="CENTER_RIGHT" spacing="5">
+                <Label text="Contact Us" style="-fx-font-weight: bold;-fx-text-fill: #777777;"/>
+                <Label text="📧 info@ByeByeMoneyStore.com"
+                       style="-fx-font-size: 12px; -fx-text-fill: #777777;"/>
+                <Label text="📞 +20 100 000 000"
+                       style="-fx-font-size: 12px; -fx-text-fill: #777777;"/>
+            </VBox>
+        </HBox>
+    </VBox>
+</StackPane>
