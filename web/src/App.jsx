@@ -92,6 +92,7 @@ function App() {
   }, [category, products, search, sort])
 
   const cartCount = cart.reduce((total, item) => total + item.quantity, 0)
+  const catalogLoading = products === null && !loadError
   const subtotal = cart.reduce((total, item) => total + item.price * item.quantity, 0)
   const tax = subtotal * TAX_RATE
   const total = subtotal + tax
@@ -216,11 +217,13 @@ function App() {
                 <label className="sort-field"><span>Sort by</span><select value={sort} onChange={(event) => setSort(event.target.value)} aria-label="Sort products"><option value="featured">Our favorites</option><option value="price-low">Price: low to high</option><option value="price-high">Price: high to low</option><option value="name">Name: A to Z</option></select></label>
               </div>
               {loadError && <p className="error-banner" role="alert">{loadError}</p>}
-              <p className="results-count">{visibleProducts.length} LITTLE FINDS TO LOVE</p>
-              <div className="product-grid">
-                {visibleProducts.map((product, index) => <ProductCard key={product.id} product={product} index={index} onAdd={() => addToCart(product)} />)}
+              <p className="results-count">{catalogLoading ? 'GATHERING LITTLE FINDS...' : `${visibleProducts.length} LITTLE FINDS TO LOVE`}</p>
+              <div className="product-grid" aria-busy={catalogLoading}>
+                {catalogLoading
+                  ? Array.from({ length: 8 }, (_, index) => <div className="product-skeleton" key={index} aria-hidden="true"><div /><span /><b /></div>)
+                  : visibleProducts.map((product, index) => <ProductCard key={product.id} product={product} index={index} onAdd={() => addToCart(product)} />)}
               </div>
-              {!visibleProducts.length && !loadError && <div className="empty-state"><span>☁</span><h3>No little joys found.</h3><p>Try a different search or category.</p><button className="text-button" onClick={() => { setSearch(''); setCategory('All finds') }}>Clear filters ↗</button></div>}
+              {!catalogLoading && !visibleProducts.length && !loadError && <div className="empty-state"><span>☁</span><h3>No little joys found.</h3><p>Try a different search or category.</p><button className="text-button" onClick={() => { setSearch(''); setCategory('All finds') }}>Clear filters ↗</button></div>}
             </section>
 
             <section className="story-band" id="about">
